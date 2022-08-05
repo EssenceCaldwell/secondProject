@@ -18,7 +18,8 @@ for(let keys in obj){
 newArr.push(keys)
 }
 return newArr
-  //return Object.keys(obj)
+
+return Object.keys(obj)
 
 }
 
