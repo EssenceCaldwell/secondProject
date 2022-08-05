@@ -11,7 +11,7 @@ function getFullName(person) {
   return Object.values(person);
 }
 
-Examples:
+// Examples:
 let p1 = {firstName: 'John', lastName: 'Doe'};
 console.log(getFullName(p1)); // => 'John Doe'
 let p2 = {firstName: 'Charlie', lastName: 'Brown', age: 9};
